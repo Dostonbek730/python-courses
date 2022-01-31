@@ -227,15 +227,66 @@ This is a temporary script file.
 #     print(" Bizda hamma avtolar bor !")
   
 
-# -------------------------------------------------------------------------- #      
-# -------------------------------------------------------------------------- #
-# -------------------------------------------------------------------------- #
-# -------------------------------Dostonbek---------------------------------- #
-# -------------------------------------------------------------------------- #
-# -------------------------------------------------------------------------- #
-# -------------------------------------------------------------------------- #
+# -------------------------------------------------------------------------- # 
 
-    
+
+
+# otam = {"ism":"davron", "yosh":43, "kasbi":"tadbirkor", "shaxri":"angren"}
+# ism = otam["ism"].title()
+# yosh = otam["yosh"]
+# shaxar = otam["shaxri"].title()
+# print(f" Otamning ismi {ism} yoshi {yosh} da, yashash joyi {shaxar} shahrida !")
+
+
+
+# taomlar = {
+#     "otam":"palov",
+#     "buvim":"shorva",
+#     "dadam":"shashlik",
+#     "onam":"pizza",
+#     "opam":"lavash"
+#     }
+# taom = taomlar["otam"]
+# taom_2 = taomlar["dadam"]
+# taom_3 = taomlar["opam"]
+# print(f" Otamning sevimli taomi {taom} ! ")
+# print(termins["integer"].title())
+# print(termins["bool"].title())
+# print(termins["print"].title())
+# print(termins["list{}"].title())
+# print(termins["github"].title())
+
+
+
+
+python_izohli_lugati = {
+    "integer": "Butun son",
+    "float": "O'nlik son",
+    "string": "Matn",
+    "list": "Ro'yxat",
+    "tuple": "O'zgarmas ro'yxat",
+}
+
+key = input(" Kerakli soznini kiriting : ").lower()
+
+termin = python_izohli_lugati.get(key)
+
+if termin == None:
+    print(" Bunday soz mavjud emas ! ")
+else:
+    print(f"{key.title()} sozining manosi \
+{python_izohli_lugati[key]} deb tarjima qilinadi !")
+
+
+
+
+
+
+
+
+
+
+
 
 
 
