@@ -259,41 +259,136 @@ This is a temporary script file.
 
 
 
-python_izohli_lugati = {
-    "integer": "Butun son",
-    "float": "O'nlik son",
-    "string": "Matn",
-    "list": "Ro'yxat",
-    "tuple": "O'zgarmas ro'yxat",
-}
-
-key = input(" Kerakli soznini kiriting : ").lower()
-
-termin = python_izohli_lugati.get(key)
-
-if termin == None:
-    print(" Bunday soz mavjud emas ! ")
-else:
-    print(f"{key.title()} sozining manosi \
-{python_izohli_lugati[key]} deb tarjima qilinadi !")
+# python_izohli_lugati = {
+#    "integer": "Butun son",
+#    "float": "O'nlik son",
+#    "string": "Matn",
+#    "list": "Ro'yxat",
+#    "tuple": "O'zgarmas ro'yxat",
+# }
+# key = input(" Kerakli soznini kiriting : ").lower()
+# termin = python_izohli_lugati.get(key) 
+# if termin == None:
+#     print(" Bunday soz mavjud emas ! ")
+# else:
+#     print(f"{key.title()} sozining manosi \
+# {python_izohli_lugati[key]} deb tarjima qilinadi !")
 
 
+# -------------------------------------------------------------------------- #
 
 
 
 
+# elon_musk = {
+#             "ism":"elon",
+#             "familiya":"musk",
+#             "t_yil":"1971",
+#             "t_shaxri":"pretoriya",
+#             "companies":['spacex', 'tesla']
+#         }
+# bill_gates = {
+#             "ism":"bill",
+#             "familiya":"gates",
+#             "t_yil":"1955",
+#             "t_shaxri":"ssietl",
+#             "companies":['microsoft', 'macintosh']
+#         }
+# jeff_bezos = {
+#             "ism":"jeff",
+#             "familiya":"bezos",
+#             "t_yil":"1964",
+#             "t_shaxri":"albukerk",
+#             "companies":['amazon', 'amazon.com']
+#         }
+# abdumanabov_doston = {
+#             "ism":"doston",
+#             "familiya":"abdumanabov",
+#             "t_yil":"2002",
+#             "t_shaxri":"angren",
+#             "companies":['a_d_d_2002', 'add.inc']
+#         }
+# mark_zuckerberg = {
+#             "ism":"mark",
+#             "familiya":"zuckerberg",
+#             "t_yil":"1984",
+#             "t_shaxri":"white plains",
+#             "companies":['facebook', 'meta']
+#         }
+
+# famous = [elon_musk, bill_gates, jeff_bezos, abdumanabov_doston, mark_zuckerberg]
 
 
 
+# for person in famous:
+#         print(f"{person['ism'].title()} {person['familiya'].title()}, "
+#               f"{person['t_shaxri'].title()} da "
+#               f"{person['t_yil']} - da tavallud topgan ! ")
+
+# for person in famous:
+#     ism = person['ism']
+#     familiya = person['familiya']
+#     print(f" \n{ism.title()} {familiya.title()}ning kompaniyalari : ", end='')
+#     for company in person['companies']:
+#         print(company.title(), end=' ')
+
+# dostlar = {
+#     'ali':['spider-man', 'venom'],
+#     'vali':['iron-man', 'deadpool'],
+#     'husan':['super-man', 'marvel'],
+#     'hasan':['capitain america', 'hulk']
+#     }
+# for dost in dostlar:
+#     ism = dost.title()
+#     filmlar = dostlar[dost]
+#     print(f" \n{ism}ning sevimli filmlari : ")
+#     for film in filmlar:
+#         print(f"{film.title()} ", end='')
+    
 
 
 
+# davlatlar = {
+#     "o'zbekiston":{'poytaxt':"toshkent",
+#                    'maydon':448978,
+#                    'aholi':33_000_000,
+#                    'pul birligi':"so'm"
+#                    },
+#     "rossiya":{'poytaxt':"moskva",
+#                    'maydon':17_098_246,
+#                    'aholi':144_000_000,
+#                    'pul birligi':"rubl"
+#                    },
+#     "aqsh":{'poytaxt':"vashington",
+#                    'maydon':9_631_418,
+#                    'aholi':327_000_000,
+#                    'pul birligi':"dollar"},
+#     "malayziya":{'poytaxt':"kuala-lumpur",
+#                    'maydon':329750,
+#                    'aholi':25_000_000,
+#                    'pul birligi':"rinngit"}
+#     }
 
-
-
-
-
-
-
-
-
+# davlat = input('Davlat nomini kiriting: ').lower()
+# if davlat in davlatlar:
+#     info = davlatlar[davlat]
+#     print(f"\n{davlat.capitalize()}ning poytaxti {info['poytaxt'].title()}"
+#           f"\nHududi: {info['maydon']} kv.km"
+#           f"\nAholisi: {info['aholi']}"
+#           f"\nPul birligi: {info['pul birligi']}")
+# else:
+#     print("Bizda bu davlat haqida ma'lumot mavjud emas")
+  
+      
+# -------------------------------------------------------------------------- #      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
