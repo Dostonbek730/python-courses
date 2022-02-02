@@ -382,13 +382,86 @@ This is a temporary script file.
       
 # -------------------------------------------------------------------------- #      
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+# print(' Sonning kvadratini hisoblaydigan dastur ! ')
+# savol = ' Kerakli sonni kiriting : '  
+# qiymat = True
+# while qiymat:
+#     qiymat = input(savol)
+#     if qiymat.lower() == 'exit':
+#       qiymat = False
+#     else:
+#         print(" Javob : ", float(qiymat)**2)
+# print(' Dastur tugadi !')     
+ 
+
+
+# print('\n Barcha yahshi ko\'rgan kitoblarizni kiriting,', 
+#       'agar dasturni to\'xtatmoqchi bo\'sangiz \'stop\' deb yozing !')    
+# savol = ' Yahshi ko\'rgan kitobizni kiriting : '
+# bool = True
+# books = []
+# while bool:
+#     book = input(savol)
+#     books.append(book)
+#     if book.lower() == 'stop':
+#         bool = False
+#         del books[-1]
+#         print(f' \nSiz yahshi ko\'rgan kitoblar {books} ! ')
+        
+        
+    
+# savol = '\n Yoshingizni kiriting : '
+# yoshlar = 2000    
+# osmirlar = 5000
+# kattalar = 10000
+# qarilar = 'bepul'
+# app = True
+# savol = int(input(savol))
+# while app:
+#     if savol < 7:
+#         print(f' {savol} yoshlilar uchun chipta narxi {yoshlar} so\'m !')   
+#         app = False
+#     elif savol > 7 and savol <= 18:
+#         print(f' {savol} yoshlilar uchun chipta narxi {osmirlar} so\'m !')      
+#         app = False    
+#     elif savol > 18 and savol <= 65:
+#         print(f' {savol} yoshlilar uchun chipta narxi {kattalar} so\'m !')      
+#         app = False
+#     elif savol > 65:
+#         print(f' {savol} yoshlilar uchun chipta narxi {qarilar} !')      
+#         app = False 
+        
+ 
+        
+ 
+# savol ="Kiritilgan sonning ildizini qaytaruvchi dastur.\n"
+# savol += "Musbat son kiriting "
+# savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
+# 
+# while True:
+#     qiymat = input(savol)
+#     if qiymat.lower() == 'exit':
+#         break
+#    elif int(qiymat) < 0:
+#         continue    
+#     else:
+#         ildiz = float(qiymat)**(0.5)
+#         print(f"{qiymat} ning ildizi {ildiz} ga teng")        
+# print(' Dastur tugadi ! ')       
+        
+        
+# --------------------------------------------------------------------------        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
