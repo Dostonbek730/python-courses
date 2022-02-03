@@ -455,13 +455,107 @@ This is a temporary script file.
         
         
         
+# print(' Do\'stlaringizni royhatini tuzadigan dastur ! ')
+# dostlar = []
+# n = 1
+# while True:
+#     savol = (f' {n} - do\'stingizni kiriting : ')
+#     ism = input(savol)
+#     dostlar.append(ism)
+#       takrorlash = input(' Yana do\'stingizni qo\'shmoqchimisiz ? (ha/ yo\'q) : ')
+#     n += 1
+#     if takrorlash != 'ha':
+#         break
+# print(' Yaqin do\'stlaringiz ro\'yhati : ', dostlar)       
         
         
+# dostlar = {}
+
+# ishora =True
+# n = 1
+# while ishora:
+#     ism = input(f' {n} - do\'stingizni kiriting : ')
+#     yosh = input(f' {ism.title()}ning yoshini kiriting : ')
+#     n += 1
+#     dostlar[ism] = int(yosh)  
+      
+#     javob = input(' Yana do\'stingizni qo\'shasizmi (ha/yo\'q) ? >>>> ')
+#     if javob != 'ha':
+#        ishora = False
+# print(' Do\'stlaringiz haqida malumot : ')
+# for ism, yosh in dostlar.items():
+#     print(f' {ism.title()}ning yoshi {yosh} yoshda ! ')
+    
+
+
+
+# menu = []
+# ishora = True
+# n = 1   
+
+# print(' Kerakli mahsulotlarni kiritin, "stop" so\'zini dasturni to\'xtatish uchun yozing ! ')
+# while ishora:
+#     savol = (f' {n} - mahsulotlarni kiriting : ')
+#     mahsulot = input(savol)
+#     mahsulotlar = menu.append(mahsulot)
+#     n += 1
+#     if mahsulot.lower() == 'stop':
+#         ishora = False
+#         del menu[-1]
+# print(f' Siz kiritgan mahsulotlar : {menu}')
+      
         
-        
-        
-        
-        
-        
-        
-        
+# ishora = True
+# bozor = {}
+# n = 1
+# while ishora:
+#       savol_1 = (f' {n} - mahsulotni kiriting => ')
+#       mahsulot = input(savol_1)
+#       savol_2 = (f' {mahsulot} mahsulotining narxini kiriting => ')
+#       narx = input(savol_2)
+#       savol_3 = (' Davom etamizmi ? => ')
+#       savol = input(savol_3)
+#       bozor[mahsulot] = narx
+#       n += 1
+#       if savol != 'ha':
+#           break
+# print(' Bozor mahsulotlari : ') 
+# for mahsulot, narx in bozor.items():   
+#     print(f' {mahsulot.title()}ning narxi {narx} so\'m')    
+ 
+    
+ 
+buyurtmalar = ['olma','anjir','uzum','qovun']
+mahsulotlar = {'olma':20000,
+               'shaftoli':25000,
+               'tarvuz':18000,
+               'uzum':22000}
+
+while buyurtmalar:
+    buyurtma = buyurtmalar.pop()
+    if buyurtma in mahsulotlar.keys():
+        narh = mahsulotlar[buyurtma]
+        print(f"{buyurtma.title()} - {narh} so'm")
+    else:
+        print(f"Bizda {buyurtma} yo'q")    
+ 
+    
+ 
+    
+ 
+    
+ 
+    
+ 
+    
+ 
+    
+ 
+    
+ 
+    
+ 
+    
+ 
+    
+ 
