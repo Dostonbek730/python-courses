@@ -525,28 +525,62 @@ This is a temporary script file.
  
     
  
-buyurtmalar = ['olma','anjir','uzum','qovun']
-mahsulotlar = {'olma':20000,
-               'shaftoli':25000,
-               'tarvuz':18000,
-               'uzum':22000}
+# buyurtmalar = ['olma','anjir','uzum','qovun']
+# mahsulotlar = {'olma':20000,
+#                'shaftoli':25000,
+#                'tarvuz':18000,
+#                'uzum':22000}
 
-while buyurtmalar:
-    buyurtma = buyurtmalar.pop()
-    if buyurtma in mahsulotlar.keys():
-        narh = mahsulotlar[buyurtma]
-        print(f"{buyurtma.title()} - {narh} so'm")
-    else:
-        print(f"Bizda {buyurtma} yo'q")    
+# while buyurtmalar:
+#     buyurtma = buyurtmalar.pop()
+#     if buyurtma in mahsulotlar.keys():
+#         narh = mahsulotlar[buyurtma]
+#         print(f"{buyurtma.title()} - {narh} so'm")
+#     else:
+#         print(f"Bizda {buyurtma} yo'q")    
  
+
     
- 
-    
- 
-    
- 
-    
- 
+# mahsulotlar = {'olma':20000,
+#                'shaftoli':25000,
+#                'tarvuz':18000,
+#                'uzum':22000,
+#                'pepsi':10000,
+#                'non':1500,
+#                'go\'sht':75000,
+#                'sabzi':4000,
+#                'piyoz':2500,
+#                'karam':7000,
+#                'suv':3000,
+#                'shokolad':7500    
+#     }
+# print('\n Do\'kondagi mahsulotlar va ularning narxlari : \n')     
+# for items, prices in mahsulotlar.items():    
+#     print(f' {items.title()}  -  {prices} so\'m ')     
+# buyurtmalar = []
+# buyurtmalar_nomi = []
+# n = 1
+# ishoralar = input(' Nechta mahsulot harid qilmoqchisiz ? ==>>>  ')
+# ishoralar= int(ishoralar)
+# print(' \n Kerakli mahsulotlarni kiriting : ')
+# while ishoralar:
+#     savol_1 = (f' {n} - mahsulotni kiriting => ')
+#     mahsulot = input(savol_1)
+#     if mahsulot in mahsulotlar.keys():
+#         buyurtmalar.append(mahsulotlar[mahsulot])
+#         if mahsulot in mahsulotlar.keys():
+#             buyurtmalar_nomi.append(mahsulot)
+#     else:
+#         print(' Bizda bunday mahsulot yo\'q ! ')
+#     n += 1
+#     ishoralar -= 1    
+# summa = 0
+# for narxlar in buyurtmalar:
+#     summa += narxlar
+# print('\n Umumiy sotib olgan mahsulotlariz : ')
+# for o_mahsulotlar in buyurtmalar_nomi:
+#     print(f' {o_mahsulotlar.title()} ')
+# print(' Umummiy summa : ', summa, ' so\'m ! ') 
     
  
     
