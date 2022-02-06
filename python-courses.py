@@ -582,13 +582,100 @@ This is a temporary script file.
 #     print(f' {o_mahsulotlar.title()} ')
 # print(' Umummiy summa : ', summa, ' so\'m ! ') 
     
- 
+
+
+# ismlar = []
+# n=1
+# while True:
+#     ism = input(f' {n} - do\'stingizni ismini kiriting : ')
+#     ismlar.append(ism)
+#     n+=1
+#     takrorlash = input(' Davom etamizmi (ha/yo\'q) ?  ===>>> ')
+#     if takrorlash != 'ha':
+#         break
+# print(' Dostlaringiz toyhati : \n')    
+# for dost in ismlar:
+#     print(f' {dost.title()} ')
     
  
-    
- 
-    
- 
+# dostlar = {}
+# ishora = True
+#
+# while ishora:
+#     ism = input(' Do\'stingizni isminini kiriting : ')
+#     yosh = input(f' {ism.title()}ning yoshini kiriting : ')
+#     dostlar[ism] = int(yosh)
+#     javob = input(' Davom etamizmi (ha/yo\'q) ? ==>> ')
+#     if javob.lower() != 'ha':
+#         ishora = False
+# print(' Dostlaringizni malumoti : ')
+# for ism, yosh in dostlar.items():
+#     print(f' {ism.title()} {yosh} yoshda !')
+                
+
+# def ty_hisoblash (ism, yosh):
+#     """ Foydalanuvchini tugilgan yilini hisoblovchi dastur !"""
+#     print(f' {ism.title()} siz {2022-yosh} - yilda tugilgansiz  !')
+# 
+# ty_hisoblash(' Doston', 19)
+
+
+
+# def kub (son):
+#     """ Kiritilgan sonni kubini hisoblovchi funksiya,
+#      Kiritilgan sonni kubini hisoblovchi funksiya ! """
+#      
+#     print(f' {son} sonning kvadrati {son**2} ga teng !')
+#     print(f' {son} sonning kubi {son**3} ga teng !') 
+# kub(2)
+
+
+
+# def toq_juft (son):
+#     """ Sonning juft yoki toqligini tekshiruvchi funksiya !"""
+#     if son % 2 == 0:
+#         print(f' {son} - juft son !') 
+#     else:
+#         print(f' {son} - toq son !')
+
+
+
+# def max_min (son_1, son_2):
+#     """ katta sonni aniqlovchi funksiya ! """
+#     if son_1 > son_2:
+#         print(f' {son_1} > {son_2}')
+#     elif son_1 < son_2:
+#         print(f' {son_1} < {son_2}')
+#     else:
+#         print(f' {son_1} = {son_2}')
+
+
+
+# def son_daraja (son, daraja):
+#     """ Sonning darajasini hisoblovchi funksiya ! """
+#     print(f' {son} ning {daraja} darajasi {son**daraja} ga teng ! ')
+# son_1 = int(input(' Sonni kiriting : '))
+# daraja_1 = int(input(' Darajani kiriitng : '))
+# son_daraja(son_1, daraja_1)
+
+
+
+
+# sonlar = list(range(2,11))
+# def son (son):
+#     for boluvchilar in sonlar:
+#         if son %  boluvchilar == 0:
+#             print(f' {son} soni {boluvchilar} ga qoldiqsiz bo\'linadi !')
+#         else:
+#             continue
+
+
+
+
+
+
+
+
     
  
     
