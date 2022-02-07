@@ -670,13 +670,81 @@ This is a temporary script file.
 #             continue
 
 
+# def between(min, max, plus=''):
+#     sonlar = []
+#     while min < max:
+#         sonlar.append(min)
+#         if plus:
+#             min += plus
+#         else:
+#             min += 1
+#     return sonlar
+# print(between(2, 10, 3))
 
 
 
 
+# def info(ism, familiya, t_yil, t_joyi, tel_raqam='', el_manzil=''):
+#     person = {'ism':ism,
+#               'familiya':familiya,
+#               't_yil':t_yil,
+#               't_joyi':t_joyi,
+#               'tel_raqam':tel_raqam,
+#               'el_manzil':el_manzil
+#               }
+#     return person
+# Doston = info('doston', 'abdumanabov', 2002, 'angren', '+998940146144', 'abdumanabovdoston@gmail.com')
+# Damir =  info('admir', 'abdumanabov', 2012, 'toshkent', '+998935150108', 'danil955954@gmail.com')   
+# Diyora = info('diyora', 'abdumanabova', 2001, 'angren', '+998997906144', 'diyoraabdumanabova@gmail.com')
+# members = [Doston, Damir, Diyora]
+# for info in members:    
+#     print(f"{info['familiya'].title()} {info['ism'].title()} "
+#           f"{info['t_yil']} yilda {info['t_joyi'].title()} shaxrida tug\'ilgan,"
+#           f" telefefon raqami {info['tel_raqam']}")    
+    
+    
+  
+    
+# def maximum(son1, son2, son3):
+#     print(max(son1, son2, son3))
+# maximum(2, 3, 1)    
+    
+ 
+    
+ 
+# def aylana(radius, diametr='', yuzi=''):
+#      pi = 3.14
+#      diametr  = radius * 2
+#      yuzi = pi * (radius ** 2)
+#      info = {'radius':radius,
+#              'diametr':diametr,
+#              'yuzi':yuzi}
+#      return info
+
+# misol1 = aylana(10)
+# print(f" {misol1['radius']} sm radiusli" 
+#        f" aylananing diametri {misol1['diametr']} sm ga"
+#        f" teng va yuzi {misol1['yuzi']} sm.kvadrat ga teng !")
 
 
     
- 
+   
+# def tub_sonlar_top(min, max):
+#     tub_sonlar = []
+#     for n in range(min, max + 1):
+#         tub = True
+#         if n == 1:
+#             tub = False
+#         elif n == 2:
+#             tub = True
+#         else:
+#             for x in range(2, n):
+#                 if n % x == 0:
+#                     tub = False
+#         if tub:
+#             tub_sonlar.append(n)
+#     return tub_sonlar       
+# tub = tub_sonlar_top (2, 20)     
+
     
  
