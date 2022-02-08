@@ -747,4 +747,37 @@ This is a temporary script file.
 # tub = tub_sonlar_top (2, 20)     
 
     
- 
+
+
+# def narxlar(avto):
+#     avtolar = {}
+#     while avto:
+#         car = avto.pop()
+#         narx = input(f' {car.title()} ga narx kiriting : ')
+#         avtolar[car] = narx
+#     return avtolar
+# 
+# narxla = ['malibu', 'spark', 'captiva']
+# narxla = narxlar(narxla)
+# 
+# for car, price in narxla.items():
+#     print(f' {car.title()}ning narxi {price}$ ga teng !')
+
+
+
+def katta_harf(matnlar):
+    for i in range(len(matnlar)):
+        matnlar[i]=matnlar[i].title()   
+
+ismlar = ['ali', 'vali', 'hasan', 'husan']
+katta_harf(ismlar)
+print(ismlar)
+
+
+
+
+
+
+
+
+
